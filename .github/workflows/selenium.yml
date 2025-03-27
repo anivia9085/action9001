@@ -2,7 +2,7 @@ name: Run Python Script on 1 Different Servers
 
 on:
   schedule:
-    - cron: '0 1,13 * * *'  # Chạy vào lúc 1h sáng và 1h chiều (UTC)
+    - cron: '0 3,16 * * *'  # Chạy vào lúc 1h sáng và 1h chiều (UTC)
   workflow_dispatch:  # Cho phép chạy thủ công từ UI của GitHub Actions
 
 jobs:
